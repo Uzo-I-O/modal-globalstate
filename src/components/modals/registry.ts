@@ -2,12 +2,12 @@ import React from 'react';
 import { ModalRegistry } from '../../types';
 
 // Import modal components
-import ConfirmationModal from './ConfirmationModal.js';
-import FormModal from './FormModal.js';
-import InfoModal from './InfoModal.js';
-import WarningModal from './WarningModal.js';
-import ErrorModal from './ErrorModal.js';
-import SuccessModal from './SuccessModal.js';
+import ConfirmationModal from './ConfirmationModal';
+import FormModal from './FormModal';
+import InfoModal from './InfoModal';
+import WarningModal from './WarningModal';
+import ErrorModal from './ErrorModal';
+import SuccessModal from './SuccessModal';
 
 // Registry of all available modal types
 export const MODAL_REGISTRY: ModalRegistry = {
